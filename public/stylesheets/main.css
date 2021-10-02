@@ -1,3 +1,7 @@
+html, body {
+  font-family: 'Noto Sans Display', 'Noto Sans TC', sans-serif;
+}
+
 nav {
   margin-top: 25px;
   position: relative;
@@ -9,11 +13,16 @@ nav {
   height: 30px;
   text-decoration: none;
   text-align: center;
+  font-weight: 550;
   line-height: 30px;
-  font-weight: 600;
   color: #333;
   background: #ddd;
   border-radius: 5px;
+}
+
+.btn-activate {
+  color: #ddd;
+  background: #333;
 }
 
 #btn-home {
@@ -39,4 +48,8 @@ nav {
 .container {
   margin-top: 40px;
   padding: 0 20px;
+}
+
+.title {
+  font-weight: 400;
 }
