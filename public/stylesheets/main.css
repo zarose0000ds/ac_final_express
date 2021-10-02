@@ -1,0 +1,42 @@
+nav {
+  margin-top: 25px;
+  position: relative;
+}
+
+.nav-btn {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+#btn-home {
+  margin-left: 10px;
+}
+
+#btn-about, #btn-portfolio, #btn-contact {
+  position: absolute;
+}
+
+#btn-about {
+  right: 220px;
+}
+
+#btn-portfolio {
+  right: 120px;
+}
+
+#btn-contact {
+  right: 20px;
+}
+
+.container {
+  margin-top: 40px;
+  padding: 0 20px;
+}
